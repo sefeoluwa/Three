@@ -6,7 +6,7 @@ function App() {
  
   return (
     <>
-      <Canvas>
+      <Canvas className='canvas'>
         <Suspense fallback={null}>
           <Three />
         </Suspense>
